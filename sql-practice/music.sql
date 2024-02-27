@@ -50,4 +50,10 @@ VALUES
 -- Step 3: Delete a band
 DELETE FROM bands
 WHERE
-  id = 1; -- this deletes the musicians with the band id = 1 from the musician table as well
+  id = 1;
+
+-- this deletes the musicians with the band id = 1 from the musician table as well
+SELECT
+  *
+FROM
+  musicians;
